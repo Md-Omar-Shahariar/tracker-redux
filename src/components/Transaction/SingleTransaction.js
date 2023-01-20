@@ -1,6 +1,6 @@
 import React from "react";
 import editImg from "../../assets/images/edit.svg";
-import deleteImg from ".././assets/images/delete.svg";
+import deleteImg from "../../assets/images/delete.svg";
 const SingleTransaction = () => {
   return (
     <li class="transaction income">
