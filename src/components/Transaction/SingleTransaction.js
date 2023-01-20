@@ -3,15 +3,15 @@ import editImg from "../../assets/images/edit.svg";
 import deleteImg from "../../assets/images/delete.svg";
 const SingleTransaction = () => {
   return (
-    <li class="transaction income">
+    <li className="transaction income">
       <p>Earned this month</p>
-      <div class="right">
+      <div className="right">
         <p>৳ 100</p>
-        <button class="link">
-          <img class="icon" alt="" src={editImg} />
+        <button className="link">
+          <img className="icon" alt="" src={editImg} />
         </button>
-        <button class="link">
-          <img class="icon" alt="" src={deleteImg} />
+        <button className="link">
+          <img className="icon" alt="" src={deleteImg} />
         </button>
       </div>
     </li>
